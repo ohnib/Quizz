@@ -1,0 +1,78 @@
+body{
+    color: #FFFFFF;
+}
+
+.escolha-container{
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    border-radius: 4px;
+    background: rgb(18, 93, 255);
+    font-size: 3rem;
+    min-width: 80rem;
+}
+
+.escolha-container:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(6, 103, 247, 0.5);
+    transform: scale(1.02);
+    transition: transform 100ms;
+}
+
+.escolha-prefix{
+    padding: 2rem 2.5rem;
+    color: #FFFFFF;
+}
+
+.escolha-texto{
+    padding: 2rem;
+    width: 100%;
+}
+
+.correto{
+    background: linear-gradient(32deg, rgba(11,223,36)0%, rgba(41, 232, 111)100%)
+}
+
+.incorreto{
+    background: linear-gradient(32deg, rgba(230, 29, 29, 1)0%, rgba(224, 11, 11, 1)100%)
+}
+
+@media screen and (max-width: 760px){
+    .escolha-container{
+        min-width: 40rem;
+    }
+}
+
+.display-prefix{
+    text-align: center;
+    font-size: 2rem;
+}
+
+#display{
+    display: flex;
+    justify-content: space-between;
+}
+
+.display-prefix{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.display-text{
+    text-align: center;
+}
+
+#barra-progresso{
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid rgb(11,223,36);
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#barra-full{
+    height: 100%;
+    background:rgb(11,223,36);
+    width: 0%;
+}
