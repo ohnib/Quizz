@@ -14,10 +14,10 @@ let perguntas = [
     {
         pergunta: 'Quanto é 2+2?',
         escolha1: '2',
-        escolha2: '4',
+        escolha2: 2,
         escolha3: '10',
         escolha4: '22',
-        resposta: '4',
+        resposta: 2,
     },
     {
         pergunta: 'Quanto é 2+2?',
@@ -25,7 +25,7 @@ let perguntas = [
         escolha2: '4',
         escolha3: '10',
         escolha4: '22',
-        resposta: '4',
+        resposta: 2,
     },
     {
         pergunta: 'Quanto é 2+2?',
@@ -33,7 +33,7 @@ let perguntas = [
         escolha2: '4',
         escolha3: '10',
         escolha4: '22',
-        resposta: '4',
+        resposta: 2,
     },
     {
         pergunta: 'Quanto é 2+2?',
@@ -41,7 +41,7 @@ let perguntas = [
         escolha2: '4',
         escolha3: '10',
         escolha4: '22',
-        resposta: '4',
+        resposta: 2,
     },
 ]
 
@@ -100,7 +100,7 @@ getNewPergunta = () =>{
             setTimeout(() => {
                 escolhaSelecionada.parentElement.classList.remove(aplicarClasse)
                 getNewPergunta()
-
+                
             }, 1000)
         })
     })
