@@ -1,0 +1,15 @@
+body{
+    color: #FFF;
+}
+
+#scoreLista{
+    list-style: none;
+    margin-bottom: 4rem;
+}
+
+.score-alto{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+

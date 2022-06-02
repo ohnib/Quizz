@@ -14,7 +14,7 @@ let perguntas = [
     {
         pergunta: 'Quanto é 2+2?',
         escolha1: '2',
-        escolha2: 2,
+        escolha2: '4',
         escolha3: '10',
         escolha4: '22',
         resposta: 2,
@@ -60,7 +60,7 @@ getNewPergunta = () =>{
     if (perguntasArray.length === 0 || contadorPerguntas > perguntaMax){
         localStorage.setItem('scoreRecente', score)
 
-        return window.location.assign('/end.html')
+        return window.location.assign('/gameover.html')
     }
 
     contadorPerguntas++
